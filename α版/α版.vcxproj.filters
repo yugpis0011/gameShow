@@ -16,30 +16,51 @@
     <Filter Include="Base">
       <UniqueIdentifier>{66f09c20-c1d4-4809-9716-112e1c1321be}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Equalizer">
-      <UniqueIdentifier>{ed18592e-566b-4343-b525-746ca07474f4}</UniqueIdentifier>
+    <Filter Include="Player">
+      <UniqueIdentifier>{6138fbb5-2110-45da-ba0b-1d0294551513}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sound">
+      <UniqueIdentifier>{8f5feafa-288f-4ced-bc99-dbb65058ca5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{d3123838-2845-446d-bc10-7cf845708ab6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MikeIn">
+      <UniqueIdentifier>{04a3b98c-cbc8-4a1d-9fed-c089a50b1710}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
-    <ClCompile Include="Equalizer\Equalizer.cpp">
-      <Filter>Equalizer</Filter>
+    <ClCompile Include="Scene\Scene.cpp">
+      <Filter>Scene</Filter>
     </ClCompile>
-    <ClCompile Include="Scene.cpp">
-      <Filter>ソース ファイル</Filter>
+    <ClCompile Include="MikeIn\MikeIn.cpp">
+      <Filter>MikeIn</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound\Sound.cpp">
+      <Filter>Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Player\Player.cpp">
+      <Filter>Player</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Base\Singleton.h">
       <Filter>Base</Filter>
     </ClInclude>
-    <ClInclude Include="Equalizer\Equalizer.h">
-      <Filter>Equalizer</Filter>
+    <ClInclude Include="Scene\Scene.h">
+      <Filter>Scene</Filter>
     </ClInclude>
-    <ClInclude Include="Scene.h">
-      <Filter>ヘッダー ファイル</Filter>
+    <ClInclude Include="MikeIn\MikeIn.h">
+      <Filter>MikeIn</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound\Sound.h">
+      <Filter>Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Player\Player.h">
+      <Filter>Player</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
